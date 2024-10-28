@@ -56,8 +56,10 @@
 }
 
 .pip { 
-    width: 310px;
-    position: relative;
+    width: 420px;
+    position: absolute;
+    right: 130px;
+    top: 100px;
 }
 
 
