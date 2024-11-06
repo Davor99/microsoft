@@ -64,6 +64,7 @@
   background-color: rgb(254, 254, 254);
   display: flex;
   position: sticky;
+  top: 0px;
   padding: 15px;
   font-size: small;
   gap: 18px;
@@ -96,7 +97,20 @@
   background-color: rgb(254, 254, 254);
   border-radius: 18px;
   text-align: left;
+
 }
+
+
+.dta-item:hover {
+width: 230px;
+height: 240px;
+background-color: aquamarine;
+transition-duration: 1.5s;
+transition-timing-function: ease;
+
+}
+
+
 .bd {
   margin-right: 80px;
   margin-top: 25px;
@@ -104,9 +118,60 @@
  display: flex;
 }
 
-.logo {
+@media (max-width: 768px) {
+.smalltext {
 
-
-
-
+  width: 100px;
 }
+
+.pip {
+
+  width: 334px;
+}
+
+.container {
+
+  width: 100%;
+}
+
+.dta-grid {
+
+  width: 334px;
+}
+
+.dta-item {
+
+  width: 100%;
+}
+}
+
+@media (max-width: 426px) {
+  .smalltext {
+  
+    width: 50px;
+  }
+  
+  .pip {
+  
+    width: 164px;
+  }
+  
+  .container {
+  
+    width: 100%;
+  }
+  
+  .dta-grid {
+  
+    width: 214px;
+  }
+  
+  .dta-item {
+  
+    width: 100%;
+  }
+
+
+  
+  }
+
